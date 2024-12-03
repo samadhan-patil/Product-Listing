@@ -25,7 +25,6 @@ export default function Products() {
           <div key={product.id} style={{ margin: '20px', border: '1px solid #ddd', padding: '10px', width: '200px' }}>
             <img src={product.images[0]?.src} alt={product.name} style={{ width: '100%' }} />
             <h3>{product.name}</h3>
-            <p>{product.short_description}</p>
             <p><strong>Price:</strong> {product.price}</p>
           </div>
         ))}
